@@ -1,0 +1,84 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width:100%;
+    background-color: white;
+}
+.navbarcontainer{
+    width:80%;
+    height:60px;
+    /* background-color: black; */
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo ul{
+    display:flex;
+}
+.logo ul li{
+ list-style: none;
+ padding-left: 20px;
+}
+
+.logo a:hover{
+
+    color:red;
+    transition:0.1s;
+}
+.logo a::before{
+content:'';
+border-top:2px solid red;
+width:0%;
+display:block;
+}
+.logo a:hover::before{
+    width:100%;
+    position:relative;
+    top:-20px;
+
+}
+
+
+ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+.navitems .mainlist .mainitem {
+    list-style: none;
+    position:relative;
+}
+
+.sublist{
+    position:absolute;
+    /* background-color: aqua; */
+    top:17px;
+    display:none;
+    transition:0.9s;
+    border:20px;
+    background-color: whitesmoke;
+
+
+}
+ .subitem{
+    list-style: none;
+    text-align: center;
+    padding:5px 0px;
+
+}
+.subitem a{
+    color:black;
+}
+
+.mainitem:hover .sublist{
+    display:block;
+
+}
+.mainitem a:hover{
+    color:red;
+}

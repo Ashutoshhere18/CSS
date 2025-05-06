@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+.form{
+    height:600px;
+    width:650px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-VPExqPq61L-aJCsESzUZONCqOuh0XpeZtQ&s');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+}
+
+.background{
+    background: rgba( 255, 255, 255, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height:450px;
+    width:550px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    text-align:center;
+    }
+
+    .name{
+        position:absolute;
+        left:30%;
+        top:28%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+    .input{
+        position:absolute;
+        left:30%;
+        top:34%;
+        outline:none;
+        border:none;
+}
+
+.password{
+    position:absolute;
+        left:30%;
+        top:40%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+}
+
+.passinput{
+    position:absolute;
+        left:30%;
+        top:46%;
+        
+}

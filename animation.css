@@ -1,0 +1,33 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+.box1{
+    border:2px solid yellow;
+    width:200px;
+    height:200px;
+    margin:auto;
+    margin-top: 140px;
+    border-right: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-radius: 50%;
+    animation-name: rotatebox;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+body{
+    background-color: black;
+}
+
+@keyframes rotatebox{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+    
+}

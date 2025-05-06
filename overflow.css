@@ -1,0 +1,32 @@
+.box1{
+    height:250px;
+    width:250px;
+    background-color: black;
+    float:left;
+    overflow:hidden;
+    color:white;
+}
+
+.box2{
+    height:250px;
+    width:250px;
+    background-color: blue;
+    float:left;
+    overflow:scroll;
+}
+
+.box3{
+    height:250px;
+    width:250px;
+    background-color: darkcyan;
+    float:left;
+    overflow:visible;
+}
+
+.box4{
+    height:250px;
+    width:250px;
+    background-color: darkolivegreen;
+    float:left;
+    overflow:auto;
+}

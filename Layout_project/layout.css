@@ -1,0 +1,309 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+    width:100%;
+    
+    
+    
+    
+    
+    
+
+}
+.navbarcontainer{
+    /* background-color: aqua; */
+    width:90%;
+    height:30px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    visibility:hidden;
+    
+  
+}
+.fixed{
+   position: relative; 
+    height:auto;
+    position:sticky;
+    top:0%;
+    z-index: 999;
+}
+    
+    
+    
+    
+
+i{
+    height:30px;
+    color:white;
+    
+}
+.navbarcontainer ul{
+    display:flex;
+    justify-content: end;
+    list-style: none;
+  
+    
+}
+.navbarcontainer ul li{
+    padding-left: 20px;
+    
+}
+.navbarcontainer li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu{
+    background-color:whitesmoke;
+    width:100%;
+}
+.menucontainer{
+    /* background-color: blue; */
+    width:90%;
+    height:100px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menucontainer ul li a{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+
+.menucontainer ul li::before{
+    content: '';
+    display:block;
+    border-bottom: 2px solid black;
+    height:2px solid;
+    width:0%;
+    margin:auto;
+    position:relative;
+    top:30px;
+    transition:0.5s;
+}
+
+.menucontainer li:hover::before{
+    width:100%;
+   
+}
+
+
+
+
+
+
+
+img{
+    height:30px;
+}
+
+.name ul{
+    display:flex;
+     list-style: none;
+     
+    
+
+}
+.name ul li{
+    padding:10px;
+    color:black;
+    }
+
+
+
+
+
+.search{
+    
+    height:40px;
+    width:200px;
+    border:2px solid grey; 
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+    
+}
+
+
+
+.search i{
+    color:black;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:8px;
+    left:7px;
+    
+    
+    
+
+}
+   
+input{
+    outline:none;
+    border:none;
+    height:40px;
+    width:220px;
+    border:2px solid grey;
+    border-radius: 20px;
+    
+     
+
+}
+
+::placeholder{
+    width:100px;
+    padding:30px;
+    
+    
+}
+
+.banner{
+    width:100%;
+    
+    /* background-color: black; */
+}
+.bannercontainer{
+    width:90%;
+    height:400px;
+    margin:auto;
+    
+   /* ckground-color: bisque; */
+}
+.bannercontainer img{
+    width:100%;
+    height:400px;
+}
+H3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin:20px 0px;
+}
+H3::before{
+       content: '';
+       border-bottom: 2px solid black;
+       display:inline-block;
+       width:39%;
+       position: relative;
+       top:-5px;
+}
+H3::after{
+    content: '';
+    border-bottom: 2px solid black;
+    display:inline-block;
+    width:39%;
+    position: relative;
+    top:-5px;
+}
+
+
+
+
+
+
+.gallery{
+    width:100%;
+    height:510px;
+    /* background-color: blue; */
+}
+.gallerycontainer{
+ width:90%;
+ /* background-color: chartreuse; */
+ height:510px;
+ margin:auto;
+ display:flex;
+ justify-content: space-between;
+ border-radius: 10%;
+ flex-wrap: wrap;
+ align-content: space- babetween;
+ 
+
+}
+.box{
+    width:24%;
+    height:250px;
+    background-color: black;
+    
+    border-radius: 10%;
+}
+.box img{
+    width:100%;
+    height:250px;
+    border-radius: 10%;
+}
+
+.gallery2{
+    width:100;
+    height:820px;
+    /* background-color: black; */
+}
+.gallery2container{
+    /* background-color: aqua; */
+    width:90%;
+    height:820px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+
+}
+.box1{
+    width:24%;
+    height:400px;
+    /* background-color: lightpink; */
+    border-radius: 20px;
+    
+}
+.gallery2container video{
+    width:100%;
+    height:400px;
+    border-radius: 20px;
+    margin:auto;
+}
+.gallery2container img{
+    width:100%;
+    height:400px;
+    border-radius:20px;
+    margin:auto;
+}
+
+@media(max-width:480px)
+{
+    .navbarcontainer{
+        /* background-color: aqua; */
+        width:90%;
+        height:auto;
+        margin:auto;
+        display:flex;
+        align-items: center;
+        justify-content: end;
+        visibility: visible;
+        overflow-x:hidden;
+        }
+        .navbarcontainer ul li{
+            /* padding-left: 20px; */
+            text-align: center;
+        }
+        .navbar{
+            background-color: black;
+            width:100%;
+}
+}
+
+

@@ -1,0 +1,41 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.box1{
+    height:50px;
+    width:50px;
+    background-color: darkolivegreen;
+    float:left;
+    font-weight:50px;
+    font-size:40px;
+    object-fit: cover;
+}
+
+.box2{
+    height:50px;
+    width:50px;
+    background-color:lightgoldenrodyellow;
+    float:left;
+    font-weight:50px;
+    font-size:40px;
+    object-fit: cover;
+}
+
+.one{
+    height:50px;
+    width:400px;
+    margin:auto;
+ 
+    
+}
+
+.two{
+    height:50px;
+    width:400px;
+    margin:auto;
+
+
+}

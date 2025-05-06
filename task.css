@@ -1,0 +1,125 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+
+.logo{
+    height:50px;
+    width:100%;
+    background-color:lightgrey;
+    color:black;
+    margin-top:50px;
+    margin-bottom:0px;
+    margin-right: 50px;
+    margin-left:50px;
+    text-align: center;
+    object-fit: cover;
+    padding:10px;
+    }
+
+    .header{
+        height:100px;
+        width:100%;
+        background-color:lightgrey ;
+        text-align:center;
+        margin-top:20px;
+        margin-right: 50px;
+        margin-left:50px;
+        margin-bottom:0px;
+    }
+    
+    .box1{
+        background-color: lightgray;
+        height:30px;
+        width:18%;
+        float:left;
+        margin-left: 50px;
+        margin-right:40px;
+        margin-top:20px;
+
+    }
+    .box2{
+        
+            background-color: lightgray;
+            height:30px;
+            width:18%;
+            float:left;
+            margin-left: 40px;
+        margin-right:40px;
+        margin-top:20px;
+        }
+        .box3{
+            background-color: lightgray;
+            height:30px;
+            width:18%;
+            float:left;
+            margin-left: 40px;
+        margin-right:40px;
+        margin-top:20px;
+        }
+
+        .box4{
+            background-color: lightgray;
+            height:30px;
+            width:18%;
+            float:left;
+            margin-left: 40px;
+        /* margin-right:40px; */
+        margin-top:20px;
+        }
+
+        
+        .quick{
+            height:150px;
+            width:33%;
+            background-color:lightgrey;
+            float:left;
+            margin-top:30px;
+            /* margin-right:50px; */
+            margin-left:20px;
+            margin-right:10px;
+            box-sizing: border-box;
+            padding:10px;
+            object-fit: cover;
+            margin-bottom:0px;
+        }
+        .about{
+            height:400px;
+            width:40%;
+            background-color: lightgrey;
+            float:left;
+            margin-top:30px;
+            margin-right:50px;
+            margin-left:50px;
+            text-align: center;
+            padding:10px;
+            margin-bottom:0px;
+
+            
+        }
+        .links{
+            height:230px;
+            width:33%;
+            background-color: lightgrey;
+            float:left;
+            margin-left:20px;
+            margin-top:20px;
+            margin-right:10px;
+            margin-bottom:0px;
+            text-align:center;
+            padding:10px
+
+        }
+
+        .copyright{
+            width:100%;
+            height:100px;
+            padding:10px;
+            background-color: lightgrey;
+            margin-left:50px;
+            margin-top:40px;
+            margin-right:50px;
+            margin-bottom:20px;
+        }
